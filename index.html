@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body class="bg-cover bg-fixed" style="background-image: url('home\ image.jpeg')">
+
+    <header class="flex justify-between items-center py-4">
+        <h1 class="text-white text-2xl ml-10">VOCI</h1>
+        <nav class="bg-gray-800 sm:bg-transparent">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-between h-16">
+                    <div class="flex">
+                       
+                        <div class="hidden sm:block sm:ml-6">
+                            <div class="flex space-x-4">
+                                <a href="#section2" class="text-white hover:text-blue-500 px-3 py-2">Home</a>
+                                <a href="#aboutUs" class="text-white hover:text-blue-500 px-3 py-2">About us</a>
+                                <a href="#all" class="text-white hover:text-blue-500 px-3 py-2">Services</a>
+                                <a href="#gettoknow" class="text-white hover:text-blue-500 px-3 py-2">Get in touch</a>
+                                <a href="#bottom" class="text-white hover:text-blue-500 px-3 py-2">Contacts</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-mr-2 flex sm:hidden">
+                        <button type="button" class="text-white inline-flex items-center justify-center p-2 rounded-md hover:text-blue-500 focus:outline-none focus:text-blue-500 transition ease-in-out duration-150" aria-controls="mobile-menu" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <!-- Heroicon name: menu -->
+                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="sm:hidden" id="mobile-menu">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="#section2" class="text-white block hover:text-blue-500 px-3 py-2">Home</a>
+                    <a href="#aboutUs" class="text-white block hover:text-blue-500 px-3 py-2">About us</a>
+                    <a href="#all" class="text-white block hover:text-blue-500 px-3 py-2">Services</a>
+                    <a href="#gettoknow" class="text-white block hover:text-blue-500 px-3 py-2">Get in touch</a>
+                    <a href="#bottom" class="text-white block hover:text-blue-500 px-3 py-2">Contacts</a>
+                </div>
+            </div>
+        </nav>
+        
+        
+    </header>
+
+    <section id="section2" class="text-center mt-10 flex items-center justify-center h-screen">
+        <div class="max-w-xl">
+            <h2 class="text-white text-4xl mt-30">
+                Transform lives with <br>
+                <span class="block text-4xl">Volunteer opportunities and Community services Initiatives</span>
+            </h2>
+        </div>
+    </section>
+    
+    
+
+    <section id="aboutUs" class="bg-gray-300 grid grid-cols-1 md:grid-cols-3 py-16 px-8 md:px-24">
+        <img src="about image.jpeg" alt="" class="w-full h-auto md:w-72 md:h-60 mx-auto md:col-span-1">
+        <div class="md:col-span-2 flex flex-col justify-center px-4">
+            <h3 class="text-green-600 text-3xl mb-4">About us</h3>
+            <div class="text-lg text-gray-700">
+                <p>VOCI is a leading organization that focuses on providing volunteer opportunities and community service initiatives. We are dedicated to making a positive impact in our local community by connecting passionate individuals with meaningful projects.</p>
+                <p class="mt-4">At VOCI, we believe in the power of volunteering to create lasting change. Our team is committed to identifying and supporting initiatives that address important social issues and contribute to the development of our community. Join us in our mission to make a difference and be part of something greater.</p>
+                <button class="bg-blue-500 text-white px-4 py-2 mt-6  bg-blue hover:bg-blue-700">Learn more</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="all" class="bg-gray-700 text-white py-16 text-">
+        <h5 class="text-3xl mb-8 text-center">Our services</h5>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-8 md:px-24">
+            <div class="container bg-black p-4 rounded-lg">
+                <img src="1image.jpeg" alt="" class="w-full h-auto mx-auto">
+                <h5 class="text-xl text-center mt-4">Youth Mentorship Program</h5>
+                <p class="text-center mt-2">Empower young individuals through guidance and support</p>
+            </div>
+            <div class="container bg-black p-4 rounded-lg">
+                <img src="2image.jpeg" alt="" class="w-full h-auto mx-auto">
+                <h5 class="text-xl text-center mt-4">Environmental Clean up Campaigns</h5>
+                <p class="text-center mt-2">Join efforts to keep our city clean and green.</p>
+            </div>
+            <div class="container bg-black p-4 rounded-lg">
+                <img src="3image.jpeg" alt="" class="w-full h-auto mx-auto">
+                <h5 class="text-xl text-center mt-4">Elderly Care Assistance</h5>
+                <p class="text-center mt-2">Provide companionship and aid to senior citizens in need.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gettoknow" class="bg-gray-300 py-16">
+        <div class="text-center">
+            <h6 class="text-3xl">Get in touch</h6>
+            <p class="mt-4">Subscribe to our newsletter</p>
+        </div>
+        <div class="flex justify-center mt-8">
+            <form class="flex flex-col">
+                <label for="Email" class="mb-2">Email:</label>
+                <input type="email" class="px-4 py-2 border border-gray-400 rounded mb-4">
+                <label for="message" class="mb-2">Message:</label>
+                <input type="text" class="px-4 py-2 border border-gray-400 rounded mb-4">
+                <button class="bg-blue-500 text-white px-4 py-2 rounded bg-blue hover:bg-blue-700">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="bottom" class="bg-black text-white py-16">
+        <div class="container mx-auto flex flex-row justify-evenly px-8 md:px-24">
+            <div>
+                <h1 class="text-3xl mb-4">VOCI</h1>
+                <p class="mb-4">Transform lives with VOCI</p>
+                <div class="flex">
+                    <i class="fab fa-twitter text-xl mr-4 text-white hover:text-blue-500"></i>
+                    <i class="fab fa-facebook text-xl mr-4 text-white hover:text-blue-500"></i>
+                    <i class="fab fa-instagram text-xl text-white hover:text-blue-500"></i>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-xl mb-4">Links</h2>
+                <p class="mb-2 text-white hover:text-blue-500">Home</p>
+                <p class="mb-2 text-white hover:text-blue-500">About us</p>
+                <p class="mb-2 text-white hover:text-blue-500">Services</p>
+                <p class="mb-2 text-white hover:text-blue-500">Contact</p>
+            </div>
+            <div>
+                <h3 class="text-xl mb-4">Contacts</h3>
+                <ul >
+                    <li class="flex items-center mb-2"><i class="fas fa-phone text-blue-500 mr-2 "></i> +250 789654321</li>
+                    <li class="flex items-center mb-2"><i class="fas fa-envelope text-blue-500 mr-2"></i>VOCI@gmail.com</li>
+                    <li class="flex items-center mb-2"> <i class="fa-solid fa-location-dot  text-blue-500 mr-2"></i>KK270st Rwanda</li>
+                    </ul>
+</footer>
